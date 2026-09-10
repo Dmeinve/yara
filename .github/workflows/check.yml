@@ -1,0 +1,13 @@
+name: Check
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - name: Download check script
+        run: curl -O https://raw.githubusercontent.com/sd5913/pfad/2026/assignments/check.py
+      - run: uv run python check.py
