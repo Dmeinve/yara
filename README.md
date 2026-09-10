@@ -1,1 +1,2 @@
-# yara
+# Why Are We Here? To Learn to Judge, Not to Write
+In my final-year project, my team and I are producing an AI short film. Early on, I asked an AI model to turn our script into a nine-panel storyboard. The result looked exactly right: nine frames in order, each captioned with a shot description. For a moment I thought, this is it — this is what we needed. Then we actually tried to build from it, and the trouble began. The panels did not connect. A beat that should have carried from one shot to the next simply vanished. The visual tension we wanted was missing, and I could not put my finger on why.
